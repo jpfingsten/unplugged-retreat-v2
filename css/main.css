@@ -87,6 +87,172 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/********** HOMEPAGE - Mobile **********/
+.container {
+
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 100%;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+.header-divider {
+  height: 1px;
+  background-color: #3a3a3a;
+}
+
+.hero-area {
+
+}
+
+.form-area .container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.form-description {
+
+}
+
+.form {
+
+}
+
+.form input {
+  width: 100%;
+}
+
+button {
+  width: 100%;
+}
+
+.features-area {
+
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.features {
+
+}
+
+.feature-description {
+
+}
+
+.reviews {
+
+}
+
+.group-area {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.group-photo {
+
+}
+
+.group-text {
+
+}
+
+footer .container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.contact, .contact address {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+}
+
+/********** ABOUT - Mobile **********/
+.mission {
+
+}
+
+.mission-content {
+
+}
+
+.map {
+
+}
+
+.contact-area {
+
+}
+
+.general-info {
+
+}
+
+.facilitator {
+
+}
+
+/********** FAQ - Mobile **********/
+.faq {
+
+}
+
+.faq-area {
+
+}
+
+.faq-item {
+
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -260,4 +426,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
