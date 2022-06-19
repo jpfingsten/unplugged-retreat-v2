@@ -87,9 +87,26 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/********** HOMEPAGE - Mobile **********/
-.container {
+/********** GENERAL **********/
+/* reseting margins and padding */
+  /* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } */
 
+
+/********** HOMEPAGE - Mobile **********/
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
 }
 
 .logo {
@@ -100,9 +117,9 @@ textarea {
 
 nav {
   display: flex;
-  width: 100%;
+  width: 60%;
   justify-content: center;
-  align-items: center;
+  align-self: center;
 }
 
 nav ul {
@@ -124,24 +141,29 @@ nav ul li {
 }
 
 .hero-area {
-
+  width: 100%;
+  margin: 0 1.25rem;
 }
 
 .form-area .container {
   display: flex;
   flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 1.25rem;
 }
 
 .form-description {
-
+  width: 100%;
 }
 
 .form {
-
+  width: 100%;
 }
 
 .form input {
   width: 100%;
+    margin-bottom: 1rem;
 }
 
 button {
@@ -149,7 +171,7 @@ button {
 }
 
 .features-area {
-
+  margin: 0 1.25rem;
 }
 
 article {
@@ -157,18 +179,22 @@ article {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 55%;
 }
 
 .features {
-
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .feature-description {
-
+  
 }
 
 .reviews {
-
+  margin: 0 1.25rem;
 }
 
 .group-area {
@@ -187,6 +213,10 @@ article {
 footer .container {
   display: flex;
   flex-flow: row wrap;
+}
+
+.contact, .social, .copyright {
+  width: 100%;
 }
 
 .contact, .contact address {
@@ -251,6 +281,10 @@ footer .container {
 
 .faq-item {
 
+}
+
+.attention {
+  outline: 1px solid red;
 }
 
 /* ==========================================================================
