@@ -88,15 +88,14 @@ textarea {
    ========================================================================== */
 
 /********** GENERAL **********/
-/* reseting margins and padding */
-  /* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  } */
+
 
 
 /********** HOMEPAGE - Mobile **********/
+.container {
+  margin: 0 1.25rem;
+}
+
 header {
   display: flex;
   justify-content: center;
@@ -106,7 +105,6 @@ header {
 header .container {
   display: flex;
   flex-direction: column;
-  width: 60%;
 }
 
 .logo {
@@ -137,20 +135,19 @@ nav ul li {
 
 .header-divider {
   height: 1px;
+  width: 100vw;
   background-color: #3a3a3a;
 }
 
 .hero-area {
   width: 100%;
-  margin: 0 1.25rem;
-}
+  }
 
 .form-area .container {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
   align-items: center;
-  margin: 0 1.25rem;
 }
 
 .form-description {
@@ -171,7 +168,7 @@ button {
 }
 
 .features-area {
-  margin: 0 1.25rem;
+  
 }
 
 article {
@@ -190,11 +187,11 @@ article {
 }
 
 .feature-description {
-  
+  text-align: center;
 }
 
 .reviews {
-  margin: 0 1.25rem;
+  
 }
 
 .group-area {
@@ -375,8 +372,70 @@ footer .container {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 768px) {
+  .container {
+    margin: 0 4.125rem;
+  }
+
+  .features .container, .reviews .container, footer .container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  header .container {
+    flex-direction: row;
+    width: 100vw;
+    height: 100px;
+    justify-content: space-between;
+  }
+
+  .logo {
+      width: 30vw;
+  }
+
+  nav {
+      width: 20vw;
+  }
+
+  .header-divider {
+      display: none;
+  }
+
+  .form-area .container {
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 15rem;
+  }
+
+  .form-description, .form {
+    width: 40%;
+  }
+
+  .features {
+      flex-flow: row wrap;
+      justify-content: space-around;
+  }
+
+   article {
+       width: 35%;
+   }
+
+   .group-photo, .group-text {
+       width: 48%;
+   }
+
+  footer .container {
+       flex-flow: row nowrap;
+   }
+
+   .contact, .social {
+       justify-content: flex-start;
+   }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* Desktop styles here */
 }
 
 @media print,
