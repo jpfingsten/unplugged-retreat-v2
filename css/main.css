@@ -372,6 +372,10 @@ footer .container {
    Modify as content requires.
    ========================================================================== */
 
+/********** TABLET STYLES **********/
+
+/********** HOME - Tablet **********/
+
 @media only screen and (min-width: 768px) {
   .container {
     margin: 0 4.125rem;
@@ -387,6 +391,10 @@ footer .container {
     width: 100vw;
     height: 100px;
     justify-content: space-between;
+  }
+
+  .hero-area {
+      height: 37.5rem;
   }
 
   .logo {
@@ -432,6 +440,37 @@ footer .container {
    .contact, .social {
        justify-content: flex-start;
    }
+
+  /********** ABOUT - Tablet **********/
+
+  .mission-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .mission-content p {
+      width: 18.75rem;
+  }
+
+  .map {
+    height: 21.875rem;
+    background-color: #e4e4e4;
+  }
+
+  .contact-area .container h2 {
+      width: 550px;
+  }
+
+  .contact-content {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+  }
+
+  .contact-content > * {
+      width: 50%;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
