@@ -474,11 +474,14 @@ footer .container {
 
   /********** FAQ - Tablet **********/
 
-  .faq .content-wrapper {
-      justify-content: space-between;
+  .faq-items {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
   }
 
-  .faq-content {
+
+  .faq-item {
       flex-basis: 40%;
   }
 }
