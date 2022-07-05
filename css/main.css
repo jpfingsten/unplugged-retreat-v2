@@ -454,12 +454,12 @@ footer .container {
   }
 
   .map {
-    height: 21.875rem;
-    background-color: #e4e4e4;
+      height: 21.875rem;
+      background-color: #e4e4e4;
   }
 
   .contact-area .container h2 {
-      width: 550px;
+      flex-basis: 87.5%;
   }
 
   .contact-content {
@@ -469,7 +469,17 @@ footer .container {
   }
 
   .contact-content > * {
-      width: 50%;
+      flex-basis: 50%;
+  }
+
+  /********** FAQ - Tablet **********/
+
+  .faq .content-wrapper {
+      justify-content: space-between;
+  }
+
+  .faq-content {
+      flex-basis: 40%;
   }
 }
 
