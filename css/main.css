@@ -168,7 +168,7 @@ button {
 }
 
 .features-area {
-  
+
 }
 
 article {
@@ -191,7 +191,7 @@ article {
 }
 
 .reviews {
-  
+
 }
 
 .group-area {
@@ -486,9 +486,34 @@ footer .container {
   }
 }
 
+/********** DESKTOP STYLES **********/
+
+/********** HOME - Desktop **********/
+
 @media only screen and (min-width: 1200px) {
-  /* Desktop styles here */
+
+  .form-area .container {
+    justify-content: space-around;
+  }
+
+  .form-description, .form {
+    flex-basis: 20rem;
+  }
+
+  .features {
+    flex-basis:
+  }
+
+  article {
+    flex-basis: 12.5rem;
+    padding-right: 3.75rem;
+    padding-left: 3.75rem;
+  }
 }
+
+/********** ABOUT - Desktop **********/
+
+/********** FAQ - Desktop **********/
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
