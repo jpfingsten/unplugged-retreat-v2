@@ -181,9 +181,16 @@ article {
 
 .features {
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.features-wrapper {
+  display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
+  justify-content: space-around;
 }
 
 .feature-description {
@@ -278,10 +285,6 @@ footer .container {
 
 .faq-item {
 
-}
-
-.attention {
-  outline: 1px solid red;
 }
 
 /* ==========================================================================
@@ -443,6 +446,10 @@ footer .container {
 
   /********** ABOUT - Tablet **********/
 
+  .container {
+    margin: 0 4.125rem;
+  }
+
   .mission-content {
       display: flex;
       justify-content: space-between;
@@ -492,6 +499,10 @@ footer .container {
 
 @media only screen and (min-width: 1200px) {
 
+  .container {
+    margin: 0 7.5rem;
+  }
+
   .form-area .container {
     justify-content: space-around;
   }
@@ -501,13 +512,35 @@ footer .container {
   }
 
   .features {
-    flex-basis:
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .features-wrapper {
+      flex-basis: 960px;
+      justify-content: center;
+      align-items: center;
   }
 
   article {
     flex-basis: 12.5rem;
     padding-right: 3.75rem;
     padding-left: 3.75rem;
+  }
+
+  .contact-container {
+      justify-content: space-between;
+  }
+
+  .contact {
+      flex-basis: 20rem;
+      padding: 0 3.75rem;
+  }
+
+  .social {
+    flex-basis: 20rem;
+    padding: 0 3.75rem;
   }
 }
 
