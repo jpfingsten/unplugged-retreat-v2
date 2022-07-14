@@ -548,6 +548,7 @@ footer .container {
     flex-basis: 100%;
     justify-content: center;
     align-items: center;
+    margin-top: 6.25rem;
   }
 
   .features-wrapper {
@@ -558,8 +559,7 @@ footer .container {
 
   article {
     flex-basis: 12.5rem;
-    padding-right: 3.75rem;
-    padding-left: 3.75rem;
+    padding: 0 3.75rem 4rem 3.75rem;
   }
 
   .contact-container {
