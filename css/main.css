@@ -102,10 +102,10 @@ header {
   align-items: center;
 }
 
-header .container {
-  display: flex;
-  flex-direction: column;
-}
+  header .container {
+    display: flex;
+    flex-direction: column;
+  }
 
 .logo {
   display: flex;
@@ -120,18 +120,18 @@ nav {
   align-self: center;
 }
 
-nav ul {
-  display: flex;
-  flex-direction: row;
-  flex-basis: 100%;
-  justify-content: space-around;
-  align-items: center;
-  padding: 0;
-}
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+  }
 
-nav ul li {
-  list-style: none;
-}
+    nav ul li {
+      list-style: none;
+    }
 
 .header-divider {
   height: 1px;
@@ -141,7 +141,7 @@ nav ul li {
 
 .hero-area {
   width: 100%;
-  }
+}
 
 .form-area .container {
   display: flex;
@@ -158,17 +158,16 @@ nav ul li {
   width: 100%;
 }
 
-.form input {
-  width: 100%;
+  .form input {
+    width: 100%;
     margin-bottom: 1rem;
-}
+  }
 
 button {
   width: 100%;
 }
 
 .features-area {
-
 }
 
 article {
@@ -198,7 +197,6 @@ article {
 }
 
 .reviews {
-
 }
 
 .group-area {
@@ -207,11 +205,9 @@ article {
 }
 
 .group-photo {
-
 }
 
 .group-text {
-
 }
 
 footer .container {
@@ -223,12 +219,12 @@ footer .container {
   width: 100%;
 }
 
-.contact, .contact address {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+  .contact, .contact address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
 .social {
   display: flex;
@@ -251,40 +247,31 @@ footer .container {
 
 /********** ABOUT - Mobile **********/
 .mission {
-
 }
 
 .mission-content {
-
 }
 
 .map {
-
 }
 
 .contact-area {
-
 }
 
 .general-info {
-
 }
 
 .facilitator {
-
 }
 
 /********** FAQ - Mobile **********/
 .faq {
-
 }
 
 .faq-area {
-
 }
 
 .faq-item {
-
 }
 
 /* ==========================================================================
@@ -322,22 +309,22 @@ footer .container {
   /* 1 */
 }
 
-/*
+  /*
  * Extends the .sr-only class to allow the element
  * to be focusable when navigated to via the keyboard:
  * https://www.drupal.org/node/897638
  */
 
-.sr-only.focusable:active,
-.sr-only.focusable:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  white-space: inherit;
-  width: auto;
-}
+  .sr-only.focusable:active,
+  .sr-only.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    white-space: inherit;
+    width: auto;
+  }
 
 /*
  * Hide visually and from screen readers, but maintain layout
@@ -397,19 +384,19 @@ footer .container {
   }
 
   .hero-area {
-      height: 37.5rem;
+    height: 37.5rem;
   }
 
   .logo {
-      width: 30vw;
+    width: 30vw;
   }
 
   nav {
-      width: 20vw;
+    width: 20vw;
   }
 
   .header-divider {
-      display: none;
+    display: none;
   }
 
   .form-area .container {
@@ -424,25 +411,25 @@ footer .container {
   }
 
   .features {
-      flex-flow: row wrap;
-      justify-content: space-around;
+    flex-flow: row wrap;
+    justify-content: space-around;
   }
 
-   article {
-       width: 35%;
-   }
+  article {
+    width: 35%;
+  }
 
-   .group-photo, .group-text {
-       width: 48%;
-   }
+  .group-photo, .group-text {
+    width: 48%;
+  }
 
   footer .container {
-       flex-flow: row nowrap;
-   }
+    flex-flow: row nowrap;
+  }
 
-   .contact, .social {
-       justify-content: flex-start;
-   }
+  .contact, .social {
+    justify-content: flex-start;
+  }
 
   /********** ABOUT - Tablet **********/
 
@@ -451,33 +438,33 @@ footer .container {
   }
 
   .mission-content {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
-  .mission-content p {
+    .mission-content p {
       width: 18.75rem;
-  }
+    }
 
   .map {
-      height: 21.875rem;
-      background-color: #e4e4e4;
+    height: 21.875rem;
+    background-color: #e4e4e4;
   }
 
   .contact-area .container h2 {
-      flex-basis: 87.5%;
+    flex-basis: 87.5%;
   }
 
   .contact-content {
-      display: flex;
-      justify-content: flex-start;
-      align-items: flex-start;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
 
-  .contact-content > * {
+    .contact-content > * {
       flex-basis: 50%;
-  }
+    }
 
   /********** FAQ - Tablet **********/
 
@@ -489,7 +476,7 @@ footer .container {
 
 
   .faq-item {
-      flex-basis: 40%;
+    flex-basis: 40%;
   }
 }
 
@@ -505,19 +492,19 @@ footer .container {
   }
 
   h2 {
-      font-size: 3rem;
+    font-size: 3rem;
   }
 
   header .container {
-      width: 960px;
+    width: 960px;
   }
 
   .logo {
-      width: 320px;
+    width: 320px;
   }
 
   nav {
-      width: 160px;
+    width: 160px;
   }
 
   .container {
@@ -548,27 +535,27 @@ footer .container {
     flex-basis: 100%;
     justify-content: center;
     align-items: center;
-    margin-top: 6.25rem;
   }
 
   .features-wrapper {
-      flex-basis: 960px;
-      justify-content: center;
-      align-items: center;
+    flex-basis: 960px;
+    justify-content: center;
+    align-items: center;
   }
 
   article {
     flex-basis: 12.5rem;
-    padding: 0 3.75rem 4rem 3.75rem;
+    padding-right: 3.75rem;
+    padding-left: 3.75rem;
   }
 
   .contact-container {
-      justify-content: space-between;
+    justify-content: space-between;
   }
 
   .contact {
-      flex-basis: 20rem;
-      padding: 0 3.75rem;
+    flex-basis: 20rem;
+    padding: 0 3.75rem;
   }
 
   .social {
@@ -579,22 +566,17 @@ footer .container {
   /********** ABOUT - Desktop **********/
 
   .mission-content p {
-      width: 448px;
+    width: 448px;
   }
 
   .contact-area .container, footer .container {
-      width: 960px;
+    width: 960px;
   }
-
-  
 }
 
 /********** FAQ - Desktop **********/
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+@media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
@@ -620,9 +602,9 @@ footer .container {
     text-decoration: underline;
   }
 
-  a[href]::after {
-    content: " (" attr(href) ")";
-  }
+    a[href]::after {
+      content: " (" attr(href) ")";
+    }
 
   abbr[title]::after {
     content: " (" attr(title) ")";
