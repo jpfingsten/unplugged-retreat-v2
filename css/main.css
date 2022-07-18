@@ -145,7 +145,6 @@ address {
 }
 
 aside .form {
-  margin-top: 30px;
 }
 
 input[type=text] {
@@ -255,7 +254,7 @@ nav li {
   flex-flow: row wrap;
   justify-content: flex-start;
   align-items: center;
-  padding-bottom: 50px;
+  padding: 5px 0 50px 0;
 }
 
 .form-description {
@@ -518,21 +517,46 @@ footer h3 {
 
 /********** TABLET STYLES **********/
 
-/********** HOME - Tablet **********/
+
 
 @media only screen and (min-width: 768px) {
+  /********** GENERAL - Tablet **********/
+
   .container {
-    margin: 0 4.125rem;
+  margin: 0 4.125rem;
   }
 
+  h1 {
+      font-size: 3rem;
+      line-height: 3rem;
+  }
+
+  h2 {
+      font-size: 2.25rem;
+      line-height: 3rem;
+      font-weight: 500;
+  }
+
+  h3 {
+      font-size: 1.5rem;
+      line-height: 1.875rem;
+      font-weight: 500;
+  }
+
+  p {
+      font-size: 0.875rem;
+      line-height: 1.125rem;
+  }
+
+  /********** HOME - Tablet **********/
+
   .features .container, .reviews .container, footer .container {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    padding: 90px 0;
   }
 
   header .container {
     flex-direction: row;
-    width: 100vw;
+    width: 100%;
     height: 100px;
     justify-content: space-between;
   }
@@ -541,12 +565,17 @@ footer h3 {
     height: 37.5rem;
   }
 
+  .hero-area .container {
+    padding-top: 80px;
+  }
+
   .logo {
-    width: 30vw;
+    width: 30%;
+    height: 100%;
   }
 
   nav {
-    width: 20vw;
+    width: 25%;
   }
 
   .header-divider {
@@ -558,10 +587,16 @@ footer h3 {
     justify-content: space-between;
     align-items: center;
     height: 15rem;
+    padding: 15px 0 0 0;
   }
 
   .form-description, .form {
     width: 40%;
+    height: 100%;
+  }
+
+  .features-area {
+    padding: 70px 0 65px 0;
   }
 
   .features {
@@ -573,12 +608,29 @@ footer h3 {
     width: 35%;
   }
 
+  .reviews {
+    padding: 0px 0 40px 0;
+  }
+
+  .reviews h2 {
+      width: 87.5%;
+  }
+
   .group-photo, .group-text {
     width: 48%;
   }
 
   footer .container {
     flex-flow: row nowrap;
+  }
+
+  footer h3 {
+      padding-top: 0;
+      margin-top: 0;
+  }
+
+  address, .social-icons {
+      height: 60px;
   }
 
   .contact, .social {
