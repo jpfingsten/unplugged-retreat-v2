@@ -629,6 +629,11 @@ footer h3 {
       margin-top: 0;
   }
 
+  footer address {
+      font-size: .875rem;
+      line-height: 1.5rem;
+  }
+
   address, .social-icons {
       height: 60px;
   }
@@ -643,6 +648,14 @@ footer h3 {
     margin: 0 4.125rem;
   }
 
+  .mission {
+    padding: 80px 0;
+  }
+
+  .mission h2 {
+      padding-bottom: 50px;
+  }
+
   .mission-content {
     display: flex;
     justify-content: space-between;
@@ -650,12 +663,16 @@ footer h3 {
   }
 
     .mission-content p {
-      width: 18.75rem;
+      width: 46%;
     }
 
   .map {
     height: 21.875rem;
     background-color: #e4e4e4;
+  }
+
+  .contact-area {
+      padding: 80px 0 95px 0;
   }
 
   .contact-area .container h2 {
