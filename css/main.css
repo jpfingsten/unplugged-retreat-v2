@@ -374,7 +374,7 @@ article img {
 }
 
 .group-text {
-    margin-top: -7px;
+    margin-top: -8px;
 }
 
 footer {
@@ -868,6 +868,10 @@ footer h3 {
 
   .group-area {
       padding-top: 60px;
+  }
+
+  .group-photo figure {
+    height: 300px;
   }
 
   .contact-container {
