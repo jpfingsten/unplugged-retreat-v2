@@ -367,12 +367,12 @@ footer h3 {
   width: 100%;
 }
 
-  .contact, .contact address {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+.contact, .contact address {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .social {
   display: flex;
@@ -630,6 +630,7 @@ footer h3 {
 
   footer .container {
     flex-flow: row nowrap;
+    justify-content: space-between;
   }
 
   footer h3 {
@@ -737,7 +738,8 @@ footer h3 {
   }
 
   h2 {
-    font-size: 2.25rem;
+    font-size: 3rem;
+    line-height: 3.75rem;
   }
 
   h3 {
@@ -837,12 +839,32 @@ footer h3 {
 
   /********** ABOUT - Desktop **********/
 
+  .mission, .contact-area {
+      padding-top: 100px;
+  }
+
+  .mission h2 {
+      padding-bottom: 20px;
+  }
+
   .mission-content p {
     width: 448px;
   }
 
+  .map {
+      height: 450px;
+  }
+
+  .contact {
+      padding: 0 2.8125rem;
+  }
+
   .contact-area .container, footer .container {
     width: 960px;
+  }
+
+  .contact-area h3 {
+      color: #ffffff;
   }
 }
 
