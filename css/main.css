@@ -416,12 +416,16 @@ footer h3 {
 
 /********** FAQ - Mobile **********/
 .faq {
+  background-color: #527158;
+  color: #e2e3ed;
 }
 
 .faq-area {
+    padding: 40px 0 45px 0;
 }
 
 .faq-item {
+    padding-top: 10px;
 }
 
 /* ==========================================================================
