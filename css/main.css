@@ -106,13 +106,16 @@ a {
   text-decoration: none;
 }
 
-h1 {
+h1, h2 {
   font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+h1 {
   font-size: 2.25rem;
 }
 
 h2 {
-  font-family: 'Poppins', sans-serif;
   font-size: 1.875rem;
 }
 
@@ -130,7 +133,7 @@ img {
 }
 
 figure {
-
+    margin: 0;
 }
 
 address {
@@ -170,6 +173,10 @@ input[type=button] {
 nav li {
     text-transform: uppercase;
     font-weight: 700;
+}
+
+address {
+    font-style: normal;
 }
 
 
@@ -236,7 +243,6 @@ nav li {
 }
 
 .hero-area h1 {
-    margin: 0;
 }
 
 .form-area {
@@ -278,7 +284,6 @@ button {
 }
 
 .features-area h2 {
-    margin: 0;
     padding-bottom: 50px;
 }
 
@@ -321,7 +326,6 @@ article img {
 }
 
 .reviews h2 {
-    margin: 0;
     padding-bottom: 20px;
 }
 
@@ -385,15 +389,23 @@ footer h3 {
 
 /********** ABOUT - Mobile **********/
 .mission {
+  background-color: #527158;
+  padding: 40px 0 50px 0;
+  color: #e2e3ed;
 }
 
 .mission-content {
 }
 
 .map {
+  height: 450px;
+  background-color: #e2e3ed;
 }
 
 .contact-area {
+  color: #e2e3ed;
+  padding: 50px 0;
+  background-color: #2a423a;
 }
 
 .general-info {
