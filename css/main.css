@@ -186,6 +186,14 @@ footer {
     margin-top: auto;
 }
 
+img {
+    width: 100%;
+}
+
+figure {
+    margin: 0;
+}
+
 
 
 /********** HOMEPAGE - Mobile **********/
@@ -200,21 +208,28 @@ header {
   background-color: #202322;
 }
 
-header .container {
-  display: flex;
-  flex-direction: column;
-}
+  header .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
 .logo {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 68%;
   height: 66px;
+}
+
+.logo img {
+    max-height: 40px;
 }
 
 nav {
   display: flex;
-  width: 60%;
+  width: 50%;
   justify-content: center;
   align-self: center;
 }
@@ -238,15 +253,17 @@ nav li {
   background-color: #3a3a3a;
 }
 
-.hero-area .container {
-  padding-top: 50px;
-}
-
 .hero-area {
   width: 100%;
   background-color: #324c33;
   height: 500px;
   color: #e2e3ed;
+  background: url('../img/hero.jpg') center no-repeat;
+  background-size: cover;
+}
+
+.hero-area .container {
+  padding-top: 50px;
 }
 
 .hero-area h1 {
@@ -288,6 +305,8 @@ button {
   background-color: #324c33;
   color: #e2e3ed;
   padding: 35px 0 65px 0;
+  background: url('../img/background.jpg') center no-repeat;
+  background-size: cover;
 }
 
 .features-area h2 {
@@ -342,11 +361,20 @@ article img {
 }
 
 .group-photo {
-    height: 200px;
-    width: 100%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.group-photo figure {
+  display: flex;
+  align-items: center;
+  height: 200px;
+  width: 100%;
 }
 
 .group-text {
+    margin-top: -7px;
 }
 
 footer {
@@ -580,6 +608,7 @@ footer h3 {
   .logo {
     width: 30%;
     height: 100%;
+    justify-content: flex-start;
   }
 
   nav {
@@ -624,8 +653,18 @@ footer h3 {
       width: 87.5%;
   }
 
+  .group-area {
+    justify-content: space-between;
+    align-items: flex-start
+  }
+
   .group-photo, .group-text {
     width: 48%;
+    justify-content: space-between;
+  }
+
+  .group-text h3 {
+      margin: 0;
   }
 
   footer .container {
@@ -758,6 +797,10 @@ footer h3 {
 
   .logo {
     width: 320px;
+  }
+
+  .logo img {
+      max-height: 50px;
   }
 
   nav {
