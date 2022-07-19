@@ -433,7 +433,6 @@ footer h3 {
 }
 
 .map {
-  height: 450px;
   background-color: #e2e3ed;
 }
 
@@ -726,13 +725,12 @@ footer h3 {
     align-items: center;
   }
 
-    .mission-content p {
-      width: 46%;
-    }
+  .mission-content p {
+    width: 46%;
+  }
 
-  .map {
-    height: 21.875rem;
-    background-color: #e4e4e4;
+  .map figure {
+    padding-bottom: 45%;
   }
 
   .contact-area {
@@ -918,8 +916,8 @@ footer h3 {
     width: 448px;
   }
 
-  .map {
-      height: 450px;
+  .map figure {
+    padding-bottom: 37.5%;
   }
 
   .contact {
