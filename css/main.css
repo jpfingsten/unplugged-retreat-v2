@@ -112,6 +112,7 @@ a {
 
 h1, h2 {
   font-family: 'Poppins', sans-serif;
+  font-weight: 500;
   margin: 0;
 }
 
@@ -125,6 +126,7 @@ h2 {
 
 h3, h4 {
   font-family: 'Poppins', sans-serif;
+  font-weight: 500;
   font-size: 1.125rem;
 }
 
@@ -458,6 +460,15 @@ footer h3 {
   background-color: #2a423a;
 }
 
+.contact-area h2 {
+  padding-bottom: 10px;
+}
+
+.contact-area address {
+  font-size: .875rem;
+  line-height: 1.125rem;
+}
+
 
 /********** FAQ - Mobile **********/
 .faq {
@@ -590,7 +601,6 @@ footer h3 {
   }
 
   p {
-    font-size: 0.875rem;
     line-height: 1.125rem;
   }
 
