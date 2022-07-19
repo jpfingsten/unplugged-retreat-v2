@@ -105,10 +105,6 @@ body {
   background-color: #527158;
 }
 
-ul, ol {
-
-}
-
 a {
   color: #e2e3ed;
   text-decoration: none;
@@ -133,26 +129,11 @@ h3, h4 {
 }
 
 p {
-    font-size: 0.875rem;
-}
-
-img {
-
+  font-size: 0.875rem;
 }
 
 figure {
     margin: 0;
-}
-
-address {
-
-}
-
-.container {
-
-}
-
-aside .form {
 }
 
 input[type=text] {
@@ -212,12 +193,12 @@ header {
   background-color: #202322;
 }
 
-  header .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+header .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .logo {
   display: flex;
@@ -228,7 +209,7 @@ header {
 }
 
 .logo img {
-    max-height: 40px;
+  max-height: 40px;
 }
 
 nav {
@@ -268,9 +249,6 @@ nav li {
 
 .hero-area .container {
   padding-top: 50px;
-}
-
-.hero-area h1 {
 }
 
 .form-area {
@@ -314,7 +292,7 @@ button {
 }
 
 .features-area h2 {
-    padding-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 article {
@@ -326,8 +304,8 @@ article {
 }
 
 article img {
-    height: 60px;
-    padding-top: 50px;
+  height: 60px;
+  padding-top: 50px;
 }
 
 .features {
@@ -337,12 +315,12 @@ article img {
 }
 
 .features i {
-    font-size: 3.75rem;
-    margin-bottom: 20px;
+  font-size: 3.75rem;
+  margin-bottom: 20px;
 }
 
 .features p {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .features-wrapper {
@@ -365,7 +343,7 @@ article img {
 }
 
 .reviews h2 {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .group-area {
@@ -387,7 +365,7 @@ article img {
 }
 
 .group-text {
-    margin-top: -8px;
+  margin-top: -8px;
 }
 
 footer {
@@ -401,7 +379,7 @@ footer .container {
 }
 
 footer h3 {
-    padding-top: 30px;
+  padding-top: 30px;
 }
 
 .contact, .social, .copyright {
@@ -454,27 +432,24 @@ footer h3 {
   color: #e2e3ed;
 }
 
-.mission-content {
-}
-
 .map {
   background-color: #e2e3ed;
 }
 
 .map figure {
-    width: 100%;
-    height: 0;
-    padding-bottom: 125%;
-    overflow: hidden;
-    position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 125%;
+  overflow: hidden;
+  position: relative;
 }
 
 .map iframe {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .contact-area {
@@ -483,11 +458,6 @@ footer h3 {
   background-color: #2a423a;
 }
 
-.general-info {
-}
-
-.facilitator {
-}
 
 /********** FAQ - Mobile **********/
 .faq {
@@ -496,11 +466,11 @@ footer h3 {
 }
 
 .faq-area {
-    padding: 40px 0 45px 0;
+  padding: 40px 0 45px 0;
 }
 
 .faq-item {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 
 /* ==========================================================================
@@ -599,29 +569,29 @@ footer h3 {
   /********** GENERAL - Tablet **********/
 
   .container {
-  margin: 0 4.125rem;
+    margin: 0 4.125rem;
   }
 
   h1 {
-      font-size: 3rem;
-      line-height: 3rem;
+    font-size: 3rem;
+    line-height: 3rem;
   }
 
   h2 {
-      font-size: 2.25rem;
-      line-height: 3rem;
-      font-weight: 500;
+    font-size: 2.25rem;
+    line-height: 3rem;
+    font-weight: 500;
   }
 
   h3 {
-      font-size: 1.5rem;
-      line-height: 1.875rem;
-      font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+    font-weight: 500;
   }
 
   p {
-      font-size: 0.875rem;
-      line-height: 1.125rem;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
   }
 
   /********** HOME - Tablet **********/
@@ -690,7 +660,7 @@ footer h3 {
   }
 
   .reviews h2 {
-      width: 87.5%;
+    width: 87.5%;
   }
 
   .group-area {
@@ -704,7 +674,7 @@ footer h3 {
   }
 
   .group-text h3 {
-      margin: 0;
+    margin: 0;
   }
 
   footer .container {
@@ -713,17 +683,17 @@ footer h3 {
   }
 
   footer h3 {
-      padding-top: 0;
-      margin-top: 0;
+    padding-top: 0;
+    margin-top: 0;
   }
 
   footer address {
-      font-size: .875rem;
-      line-height: 1.5rem;
+    font-size: .875rem;
+    line-height: 1.5rem;
   }
 
   address, .social-icons {
-      height: 60px;
+    height: 60px;
   }
 
   .contact, .social {
@@ -741,7 +711,7 @@ footer h3 {
   }
 
   .mission h2 {
-      padding-bottom: 50px;
+    padding-bottom: 50px;
   }
 
   .mission-content {
@@ -759,7 +729,7 @@ footer h3 {
   }
 
   .contact-area {
-      padding: 80px 0 95px 0;
+    padding: 80px 0 95px 0;
   }
 
   .contact-area .container h2 {
@@ -772,9 +742,9 @@ footer h3 {
     align-items: flex-start;
   }
 
-    .contact-content > * {
-      flex-basis: 50%;
-    }
+  .contact-content > * {
+    flex-basis: 50%;
+  }
 
   /********** FAQ - Tablet **********/
 
@@ -783,7 +753,7 @@ footer h3 {
   }
 
   .faq-area {
-      padding: 0;
+    padding: 0;
   }
 
   .faq-items {
@@ -797,8 +767,8 @@ footer h3 {
   }
 
   .faq-item h3 {
-      font-size: .875rem;
-      line-height: 1.125rem;
+    font-size: .875rem;
+    line-height: 1.125rem;
   }
 }
 
@@ -838,17 +808,17 @@ footer h3 {
     width: 320px;
   }
 
-    .logo img {
-      max-height: 50px;
-    }
+  .logo img {
+    max-height: 50px;
+  }
 
   nav {
     width: 160px;
   }
 
-    nav li {
-      font-size: 1.125rem;
-    }
+  nav li {
+    font-size: 1.125rem;
+  }
 
   .container {
     width: 960px;
@@ -864,10 +834,10 @@ footer h3 {
     align-items: center;
   }
 
-    footer address {
-      font-size: 1.125rem;
-      line-height: 1.5rem;
-    }
+  footer address {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+  }
 
   /********** HOME - Desktop **********/
 
@@ -940,11 +910,11 @@ footer h3 {
   /********** ABOUT - Desktop **********/
 
   .mission, .contact-area {
-      padding-top: 100px;
+    padding-top: 100px;
   }
 
   .mission h2 {
-      padding-bottom: 20px;
+    padding-bottom: 20px;
   }
 
   .mission-content p {
@@ -956,7 +926,7 @@ footer h3 {
   }
 
   .contact {
-      padding: 0 2.8125rem;
+    padding: 0 2.8125rem;
   }
 
   .contact-area .container, footer .container {
@@ -964,20 +934,20 @@ footer h3 {
   }
 
   .contact-area h3 {
-      color: #ffffff;
+    color: #ffffff;
   }
 }
 
 /********** FAQ - Desktop **********/
 
 .faq-item h3 {
-    font-size: 1.125rem;
-    line-height: 1.125rem;
+  font-size: 1.125rem;
+  line-height: 1.125rem;
 }
 
 .faq-item p {
-    font-size: 1.125rem;
-    line-height: 1.125rem;
+  font-size: 1.125rem;
+  line-height: 1.125rem;
 }
 
 @media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
