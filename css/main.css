@@ -143,13 +143,13 @@ input[type=text] {
   width: 100%;
   color: #2a423a;
   font-style: italic;
-  padding: 1em;
+  padding: .50rem;
 }
 
-input[type=button] {
+button {
   width: 100%;
-  padding: 20px 0;
-  margin-top: 20px;
+  padding: 11px 0;
+  margin-top: 10px;
   background-color: #2a423a;
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -158,6 +158,10 @@ input[type=button] {
   border: none;
   text-align: center;
   text-transform: uppercase;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 nav li {
@@ -643,12 +647,12 @@ footer h3 {
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-    height: 15rem;
+    height: 240px;
     padding: 15px 0 0 0;
   }
 
   .form-description, .form {
-    width: 40%;
+    width: 44%;
     height: 100%;
   }
 
